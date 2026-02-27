@@ -113,7 +113,8 @@ void SoftRenderer::Render2D()
 			float cos3 = cosf(3 * rad);
 			float cos4 = cosf(4 * rad);
 			float x = 16.f * sin * sin * sin;
-			float y = 13 * cos - 5 * cos2 - 2 * cos3 - cos4;
+			float y = 13 * cos - 5 * cos2 - 2 *cos3 - cos4;
+	
 			//x,y 로 벡터 만들고 hearts에 담기
 			hearts.push_back(Vector2(x, y));
 		}
